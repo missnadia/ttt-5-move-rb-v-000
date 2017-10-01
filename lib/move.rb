@@ -13,9 +13,4 @@ end
 
 def move(board, index, char="X")
   board[index] = char
-  puts " X |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
 end
